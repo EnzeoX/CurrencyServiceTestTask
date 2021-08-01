@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS currency_data;
+
+CREATE TABLE currency_data (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(250) NOT NULL,
+    rate DECIMAL NOT NULL,
+    cc VARCHAR(250) NOT NULL,
+    exchange_date VARCHAR(250) NOT NULL
+);
+
+
